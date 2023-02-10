@@ -1,0 +1,195 @@
+body{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: #E6E6EA;
+}
+
+.contenedor-imagen{
+    display: inline-block;
+    margin: 40px 350px 20px 0;
+    
+    
+}
+
+.contenedor-imagen img{
+    width: 200px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 4px;
+    border-radius: 100px;
+    box-shadow: -18px 15px 69px -7px #000000;
+}
+
+.nombre{
+    display: inline-block;
+    position: absolute;
+    left: 220px;
+    top: 130px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.nav-caja{
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.contenedor-boton{
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    right: -65px;
+}
+
+.contenedor-boton li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+.boton a, .volver a{
+    
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 150ms;
+    text-decoration: none;
+}
+
+.boton a:hover, .volver a:hover{
+    color: cadetblue;
+    text-decoration-line: underline;
+    opacity: 55%;
+    border-color: cadetblue;
+}
+
+
+/*-----banner-----*/
+
+.banner{
+    margin-top: 15px;
+    width:  100%;
+    height: 250px;
+}
+
+
+/*-----main-----*/
+
+
+.main-caja{
+    width: 1080px;
+    height: 1024;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-principal{ 
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 4em 0 2em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.text, .caja-contacto ul{
+    font-size: 22px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+
+/*-----mis datos, contacto, experiencia------*/
+
+.caja-datos, .caja-contacto, .caja-experiencia, .volver{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.map{
+    margin-top: 3em;
+}
+
+.caja-experiencia p{
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.caja-experiencia ul{
+    font-size: 22px;
+    margin: 3em 0 7em;
+}
+
+.caja-experiencia li{
+    line-height: 40px;
+}
+
+.caja-experiencia li:before{
+    content: "\25CF";
+
+}
+
+#data, #contacto,  .caja-experiencia h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin: 5em 0 3em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.lista-datos, .lista-contacto{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.data-ajuste, .contacto-ajuste{
+    display: inline-block;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.lista-contacto{
+    margin-bottom: 3em;
+}
+
+
+.volver h2{
+    text-align: center;
+    margin: 3em 0 4em;
+}
+
+.volver button{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 60px;
+    transition: 150ms;
+    
+}
+
+.volver button:hover{
+    background: #A4A4A4;
+    color: #ffffff;
+}
+
+/*-----footer------*/
+
+footer{
+    background: url("imagen/footer.jpg");
+    padding: 60px;
+    text-align: center;
+}
+
+.text-footer{
+    color: #ffffff;
+    font-size: 13px;   
+   
+}
